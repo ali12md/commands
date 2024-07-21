@@ -1,0 +1,22 @@
+
+
+# Terminate all Xcode-related processes
+killall Xcode
+killall xcodebuild
+
+# Clean build folder
+xcodebuild clean -workspace YourWorkspace.xcworkspace -scheme YourScheme
+
+# Delete Derived Data
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
+
+# Install Pods
+cd ios
+pod install
+
+# Clean Xcode build
+xcodebuild clean
+
+# Run the simulator
+cd ..
+yarn react-native run-ios --simulator="iPhone 15 Pro"
