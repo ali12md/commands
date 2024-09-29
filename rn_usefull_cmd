@@ -14,3 +14,9 @@ npx react-native run-ios --simulator="iPhone 14"
 # 4. clean cache
 yarn start --reset-cache
 
+# 5. clean android bulid
+cd android
+./gradlew clean
+cd ..
+
+
