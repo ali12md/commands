@@ -7,3 +7,10 @@ cd ..
 # 2. Rebuild your React Native app
 npx react-native run-android
 npx react-native run-ios
+
+# 3. run a particular simlar
+npx react-native run-ios --simulator="iPhone 14"
+
+# 4. clean cache
+yarn start --reset-cache
+
