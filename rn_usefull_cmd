@@ -19,4 +19,8 @@ cd android
 ./gradlew clean
 cd ..
 
+# 6. clean ios build
+cd ios
+xcodebuild clean
+cd..
 
