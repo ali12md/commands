@@ -1,4 +1,4 @@
--- 1. Unable to boot the Simulator.
+*1* Unable to boot the Simulator.
 -- open the teminal then run following command
 1. Reset the Simulator
 cmd--> xcrun simctl erase all
@@ -21,3 +21,5 @@ cmd--> sudo xcode-select --switch /Applications/Xcode.app
 
 8. Try Booting the Simulator Again
 cmd--> xcrun simctl boot "iPhone 15 Plus"
+
+*2*. 
