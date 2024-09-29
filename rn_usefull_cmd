@@ -1,0 +1,9 @@
+# 1. clean x code build
+cd ios
+xcodebuild clean
+pod install
+cd ..
+
+# 2. Rebuild your React Native app
+npx react-native run-android
+npx react-native run-ios
