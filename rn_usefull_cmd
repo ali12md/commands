@@ -24,3 +24,7 @@ cd ios
 xcodebuild clean
 cd..
 
+# 7. open emulator by cmd
+emulator -avd Pixel_4a_API_34
+
+
