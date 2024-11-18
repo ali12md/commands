@@ -33,3 +33,40 @@ sudo xcode-select --switch /Applications/Xcode.app
 ```bash
 xcrun simctl boot "iPhone 15 Plus"
 ```
+
+
+# 2. 🚀 Open a particular Simulator
+## IOS
+Open the iOS Simulator:
+
+```bash
+open -a Simulator
+```
+open a specific simulator (e.g., iPhone 14):
+```bash
+xcrun simctl boot "iPhone 14"
+```
+list all the available simulators:
+```bash
+xcrun simctl list devices
+```
+View the Available Simulator Runtimes
+```bash
+xcrun simctl list runtimes
+```
+*Open the Simulator with Devcie ID*
+```bash
+xcrun simctl boot B18E49CD-9317-4F19-B0A7-05CEF9EC4C23
+```
+
+## Android
+Open an Android Emulator
+```bash
+emulator -list-avds
+```
+Start a specific emulator(replacing AVD_NAME with the name of your emulator)
+```bash
+emulator -avd AVD_NAME
+
+
+
